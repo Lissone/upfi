@@ -14,10 +14,10 @@ interface ModalViewImageProps {
   imgUrl: string;
 }
 
-export function ModalViewImage({
-  isOpen,
-  onClose,
-  imgUrl,
-}: ModalViewImageProps): JSX.Element {
-  // TODO MODAL WITH IMAGE AND EXTERNAL LINK
-}
+// export function ModalViewImage({
+//   isOpen,
+//   onClose,
+//   imgUrl,
+// }: ModalViewImageProps): JSX.Element {
+//   // TODO MODAL WITH IMAGE AND EXTERNAL LINK
+// }

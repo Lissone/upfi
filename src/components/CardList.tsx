@@ -1,7 +1,8 @@
 import { SimpleGrid, useDisclosure } from '@chakra-ui/react';
 import { useState } from 'react';
+
 import { Card } from './Card';
-import { ModalViewImage } from './Modal/ViewImage';
+// import { ModalViewImage } from './Modal/ViewImage';
 
 interface Card {
   title: string;
@@ -16,6 +17,7 @@ interface CardsProps {
 }
 
 export function CardList({ cards }: CardsProps): JSX.Element {
+  console.log(cards);
   // TODO MODAL USEDISCLOSURE
 
   // TODO SELECTED IMAGE URL STATE
@@ -24,7 +26,11 @@ export function CardList({ cards }: CardsProps): JSX.Element {
 
   return (
     <>
-      {/* TODO CARD GRID */}
+      {/* <SimpleGrid columns={5} spacing={10}>
+        {cards.map(card => (
+        <Card data={card} />
+        ))}
+      </SimpleGrid> */}
 
       {/* TODO MODALVIEWIMAGE */}
     </>
