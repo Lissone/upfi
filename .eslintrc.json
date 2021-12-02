@@ -33,6 +33,7 @@
     "prettier"
   ],
   "rules": {
+    "react/jsx-no-bind": "off",
     "camelcase": "off",
     "import/no-duplicates": "off",
     "react/jsx-props-no-spreading": "off",
