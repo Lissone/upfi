@@ -1,6 +1,10 @@
 {
-  "name": "desafio",
-  "version": "0.1.0",
+  "name": "upfi",
+  "version": "1.0.0",
+  "description": "A website for uploading and viewing images.",
+  "repository": "https://github.com/Lissone/upfi",
+  "author": "Leonardo Dias Lissone (leonardo.lissonez@gmail.com)",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
