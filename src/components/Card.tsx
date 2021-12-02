@@ -9,10 +9,10 @@ import {
 import { useState } from 'react';
 
 interface Card {
+  ts: string;
   title: string;
   description: string;
   url: string;
-  ts: number;
 }
 
 interface CardProps {
